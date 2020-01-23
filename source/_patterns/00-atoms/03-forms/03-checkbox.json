@@ -1,0 +1,22 @@
+{
+    "checkboxes": [
+        {
+            "value": "check1 ",
+            "text": "Check 1",
+            "name": "checkboxName",
+            "id": "atoms-check-1",
+            "checked": true,
+            "disabled": false,
+            "classList": ""
+        },
+        {
+            "value": "check2 ",
+            "text": "Check 2",
+            "name": "checkboxName",
+            "id": "atoms-check-2",
+            "checked": false,
+            "disabled": false,
+            "classList": ""
+        }
+    ]
+}

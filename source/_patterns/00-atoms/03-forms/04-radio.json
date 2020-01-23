@@ -1,0 +1,22 @@
+{
+    "radios": [
+        {
+            "value": "radio1 ",
+            "text": "Radio 1",
+            "name": "radioName",
+            "id": "atoms-radio-1",
+            "checked": true,
+            "disabled": false,
+            "classList": ""
+        },
+        {
+            "value": "radio2 ",
+            "text": "Radio 2",
+            "name": "radioName",
+            "id": "atoms-radio-2",
+            "checked": false,
+            "disabled": false,
+            "classList": ""
+        }
+    ]
+}
