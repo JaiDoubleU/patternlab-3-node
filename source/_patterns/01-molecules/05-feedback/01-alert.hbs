@@ -1,0 +1,10 @@
+{{#alert}}
+<div class="alert alert-{{alertType}} {{#if dismissible}}alert-dismissible{{/if}} fade show" role="alert">
+        {{alertText}}
+        {{#if dismissible}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        {{/if}}
+    </div>
+{{/alert}}

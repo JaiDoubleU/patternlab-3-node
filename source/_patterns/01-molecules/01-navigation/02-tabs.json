@@ -1,0 +1,20 @@
+{
+    "tabs": [{
+        "id": "tab1",
+        "text": "Tab 1",
+        "active": true,
+        "href": "#tab1",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin aliquam lectus id lectus mattis porttitor.Phasellus euismod massa eu mauris tristique, nec finibus ante euismod.Curabitur volutpat consectetur lectus lobortis congue.Donec eget luctus ligula, non efficitur est.Nullam lacinia ex elit, vitae commodo tellus vulputate eu.Aenean vel metus nibh.Sed vestibulum odio et ex ultricies, id hendrerit lectus laoreet.Maecenas laoreet erat at augue placerat rhoncus.Vestibulum sed odio viverra, dapibus nibh non, consectetur lectus.Donec faucibus dictum porttitor."
+    }, {
+        "id": "tab2",
+        "text": "Tab 2",
+        "href": "#tab2",
+        "content": "Phasellus sit amet magna a sem varius sollicitudin sed id urna. Fusce est ante, hendrerit at neque vel, maximus molestie massa. Sed mattis tristique libero, a porttitor turpis malesuada ac. Curabitur malesuada felis ante, sit amet auctor nisl pellentesque sed. Curabitur sollicitudin eleifend velit quis lobortis. Vestibulum fermentum eget libero nec efficitur. Fusce fermentum est et erat euismod ornare. Aliquam facilisis at est at tempus."
+    }, {
+        "id": "tab3",
+        "text": "Tab 3",
+        "disabled": false,
+        "href": "#tab3",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu facilisis massa, et facilisis augue. Quisque non elit pretium, tristique nibh vitae, scelerisque ex. Suspendisse a eleifend est, a volutpat elit. Etiam nec metus nibh. Pellentesque et turpis arcu. Phasellus in blandit tellus. Maecenas finibus nulla ac nisi ultricies egestas. Fusce hendrerit sagittis aliquet."
+    }]
+}
