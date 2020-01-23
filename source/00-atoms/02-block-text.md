@@ -1,0 +1,1 @@
+The Block Text category defines visual styles for block level elements that affect the format of text.  A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).

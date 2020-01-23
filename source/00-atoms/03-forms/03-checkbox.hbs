@@ -1,0 +1,8 @@
+{{#checkboxes}}
+    <div class="form-check {{classList}}">
+        <input type="checkbox" id="{{id}}" name="{{name}}" value="{{value}}"  {{#if checked}} checked {{/if}}  {{#if disabled}} disabled {{/if}}>
+        <label class="form-check-label" for="{{id}}">
+            {{text}}
+        </label>
+    </div>
+{{/checkboxes}}
