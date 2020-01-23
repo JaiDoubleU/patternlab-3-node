@@ -1,0 +1,18 @@
+{
+    "card": {
+        "card-id": "molecules-card",
+        "card-header": false,
+        "card-header-text": "",
+        "card-footer": false,
+        "card-footer-text": "",
+        "card-title": false,
+        "card-title-text": "Card Title 1",
+        "card-subtitle-text": "Card Subtitle 1",
+        "card-body-title": false,
+        "card-body-title-text": "Card Title 1",
+        "card-body-subtitle-text": "Card Subtitle 1",
+        "card-text": "Some example text to display on the card to make up the card 's content.",
+        "card-link": false,
+        "card-link-text": "Card Link"
+    }
+}

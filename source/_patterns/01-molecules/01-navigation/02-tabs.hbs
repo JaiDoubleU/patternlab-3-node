@@ -1,0 +1,17 @@
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    {{#tabs}}
+        <li class="nav-item">
+            <a class="nav-link  {{#if active}}active{{/if}}  {{#if disabled}}disabled{{/if}}" id="{{id}}-tab"
+                data-toggle="tab" href="{{href}}" role="tab">{{text}}</a>
+        </li>
+    {{/tabs}}
+</ul>
+<div class="tab-content" id="myTabContent">
+    {{#tabs}}
+        <div class="tab-pane fade {{#if active}} show active{{/if}}" id="{{id}}" role="tabpanel">
+            <p>
+                {{content}}
+            </p>
+        </div>
+    {{/tabs}}
+</div>

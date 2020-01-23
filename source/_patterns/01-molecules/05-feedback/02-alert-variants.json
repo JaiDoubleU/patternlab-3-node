@@ -1,0 +1,34 @@
+{
+    "alerts": [
+        {
+            "alertType": "primary",
+            "alertText": "Holy guacamole! You should check in on some of those fields below.",
+            "dismissible": true
+        },
+        {
+            "alertType": "secondary",
+            "alertText": "Holy guacamole! You should check in on some of those fields below.",
+            "dismissible": true
+        },
+        {
+            "alertType": "info",
+            "alertText": "Holy guacamole! You should check in on some of those fields below.",
+            "dismissible": true
+        },
+        {
+            "alertType": "success",
+            "alertText": "Holy guacamole! You should check in on some of those fields below.",
+            "dismissible": true
+        },
+        {
+            "alertType": "warning",
+            "alertText": "Holy guacamole! You should check in on some of those fields below.",
+            "dismissible": true
+        },
+        {
+            "alertType": "danger",
+            "alertText": "Holy guacamole! You should check in on some of those fields below.",
+            "dismissible": true
+        }
+    ]
+}
