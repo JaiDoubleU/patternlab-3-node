@@ -1,8 +1,0 @@
-{
-    "rangeInput": [{
-        "id": "atoms-range-input",
-        "minValue": 0,
-        "maxValue": 100,
-        "currentValue": 40
-    }]
-}

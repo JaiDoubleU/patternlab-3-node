@@ -1,3 +1,0 @@
-{
-    "text": "const image = SafeImage.getApplicationImage();"
-}
