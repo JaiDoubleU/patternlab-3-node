@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?1579792860570" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1579792860570" media="all" />
+    <link rel="stylesheet" href="../../fonts/fontawesome-pro/css/all.min.css" media="all" />
+    <link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.min.css" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="body">
+<ul class="sg-colors">
+	<li>
+		<span class="sg-swatch" style="background:#13322B;"></span>
+		<span class="sg-label">
+			$color-brand-dark-green<br />
+			#13322B
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#56BC2F;"></span>
+		<span class="sg-label">
+			$color-brand-primary<br />
+			#56BC2F
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#A0EF6E;"></span>
+		<span class="sg-label">
+			$color-brand-light-green<br />
+			#A0EF6E
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#03252F;"></span>
+		<span class="sg-label">
+			$color-brand-deep-lake<br />
+			#03252F
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#2E5665;"></span>
+		<span class="sg-label">
+			$color-brand-lake<br />
+			#2E5665
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#006A70;"></span>
+		<span class="sg-label">
+			$color-brand-lagoon<br />
+			#006A70
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#58A7AF;"></span>
+		<span class="sg-label">
+			$color-brand-ocean<br />
+			#58A7AF
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#D0ECEE;"></span>
+		<span class="sg-label">
+			$color-brand-mist<br />
+			#D0ECEE
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#EFEEE1;"></span>
+		<span class="sg-label">
+			$color-brand-sand<br />
+			#EFEEE1
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#119DD9;"></span>
+		<span class="sg-label">
+			$color-brand-just-blue<br />
+			#119DD9
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#005AF6;"></span>
+		<span class="sg-label">
+			$color-brand-electric-blue<br />
+			#005AF6
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background:#FF5F23;"></span>
+		<span class="sg-label">
+			$color-brand-vivid-orange<br />
+			#FF5F23
+		</span>
+	</li>
+</ul><script src="../../js/jquery/jquery.min.js"></script>
+<script src="../../js/popper.js/popper.min.js"></script>
+<script src="../../css/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--DO NOT REMOVE-->
+<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>This color palette contains brand-specific colors to be used throughout the interface.</p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"global"},"patternExtension":"hbs","patternName":"Brand Colors","patternPartial":"atoms-brand-colors","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+</script>
+
+<script>
+  window.patternData = {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>This color palette contains brand-specific colors to be used throughout the interface.</p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"global"},"patternExtension":"hbs","patternName":"Brand Colors","patternPartial":"atoms-brand-colors","patternState":"","patternEngineName":"handlebars","extraOutput":{}};
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+
+  var scriptLoader = {
+
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1579792860570">
+  (function() {
+    if (self != top) {
+      var cb = '1579792860570';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+
+<script type="module">
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  import('../../styleguide/js/patternlab-pattern.modern.js');
+</script>
+
+<script id="pl-js-insert-1579792860570" nomodule>
+  /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+  !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
+
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  loadJS('../../styleguide/js/patternlab-pattern.js');
+</script>
+
+
+</body>
+</html>

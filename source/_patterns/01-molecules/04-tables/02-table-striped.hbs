@@ -1,0 +1,30 @@
+<div class="table-responsive">
+    {{#table}}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                {{#columns}}
+                    <th>
+                        {{text}}
+                    </th>
+                {{/columns}}
+            </tr>
+        </thead>
+        <tbody>
+            {{#rows}}
+                <tr>
+                    <td>
+                        {{ID}}
+                    </td>
+                    <td>
+                        {{Name}}
+                    </td>
+                    <td>
+                        {{Department}}
+                    </td>
+                </tr>
+            {{/rows}}
+        </tbody>
+    </table>
+    {{/table}}
+</div>

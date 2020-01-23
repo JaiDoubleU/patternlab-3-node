@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?1579792860570" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1579792860570" media="all" />
+    <link rel="stylesheet" href="../../fonts/fontawesome-pro/css/all.min.css" media="all" />
+    <link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.min.css" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1579792860570" media="all">
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="body">
+<!-- View All Patterns in a Pattern Sub-Type -->
+<div class="pl-c-main">
+  
+	<!-- Index of Patterns -->
+	<div class="pl-c-pattern-index">
+	
+			<div id="atoms-inline-text" class="pl-c-category">
+					
+				<h2 class="pl-c-category__title">
+					<a href="../../patterns/00-atoms-01-inline-text&#x2F;00-atoms-01-inline-text.rendered.html" class="pl-c-category__title-link patternLink" data-patternpartial="atoms-inline-text">Inline Text</a>
+				</h2><!--end pl-c-category__title-->
+
+				<div class="pl-c-category__description pl-c-text-passage">
+					<p>The Inline Text category defines visual styles for inline elements that affect the format of text.</p>
+
+				</div><!--end pl-c-category__description-->
+				
+			</div><!--end pl-c-category-->
+							<div id="atoms-link" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-00-link&#x2F;00-atoms-01-inline-text-00-link.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-link" title="Link to Pattern">
+							Link
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-link" data-patternpartial="atoms-link" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-link">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<a
+    class="btn  btn btn-link"
+     href="#nogo;">
+     <i class="  fas  fa-flask"></i> 
+    Go somewhere
+</a>
+
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-link" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>Hyperlinks (<code>&lt;a&gt;</code> - short for &quot;hypertext <strong>anchor</strong>&quot;), create clickable links to other URLs. They are labelled by their content which is usually text.</p>\n<p>It is also possible to create a placeholder link by omitting the <code>href</code> attribute. These are useful to indicate text that would normally be a clickable link if it had been relevant. A typical use for this is a website's main navigation menu - the item that corresponds to the current page can be represented by a placeholder to avoid the page linking to itself.</p>\n<h2>Data</h2>\n<ul>\n<li><code>label</code>: the text to display</li>\n<li><code>url</code>: the target web location</li>\n</ul>\n<h2>Best practice</h2>\n<h3>Do <em>not</em> make links that automatically open in a new window / tab</h3>\n<p>Links that open new windows or tabs without warning (e.g. by using the <code>target=&quot;_blank&quot;</code> attribute) are <strong>bad for usability</strong>, as takes away control from the user. Furthermore, if they don't notice that a link opened in a new tab / window, it can appear to break the back button which will confuse and frustrate users. Finally, if not used together with <code>rel=&quot;noopener noreferrer&quot;</code>, such links additionally pose a <strong>security risk <em>and</em> performace problem</strong>! In short, just <em>don't do it</em>!</p>\n<ul>\n<li>Smashing Magazine article &quot;<a href=\"https://www.smashingmagazine.com/2008/07/should-links-open-in-new-windows/\">Should links open in new windows?</a>&quot;</li>\n<li>Jakob Nielsen's &quot;<a href=\"https://www.nngroup.com/articles/top-10-mistakes-web-design/\">Top 10 Mistakes in Web Design</a>&quot;</li>\n<li>Sonarwhal's <a href=\"https://sonarwhal.com/docs/user-guide/rules/disown-opener/\"><code>disown-opener</code> rule</a> explains the potential security and performance risks</li>\n</ul>\n<h3>Always use descriptive link text</h3>\n<p>The text of a link provides a valuable clue to users about what to expect when they click it. Link text may also be presented to users out of context (screen readers often have a facility to read out a list of links on a page), so ensuring that it is meaningful aids accessibility. Finally, <a href=\"https://moz.com/learn/seo/anchor-text\">good link text can benefit SEO performance</a> as well.</p>\n<p>You should therefore avoid meaningless link text like &quot;Click here&quot;, &quot;On the next page&quot;, etc.</p>\n<ul>\n<li><strong>GOOD</strong>: &quot;The Nielsen Norman Group published a great <a href=\"https://www.nngroup.com/articles/writing-links/\">article about writing links</a>.&quot;</li>\n<li><strong>BAD</strong>: &quot;he Nielsen Norman Group published a great article about writing links. <a href=\"https://www.nngroup.com/articles/writing-links/\">Click here</a> to read it.&quot;</li>\n</ul>\n<p>Further reading:</p>\n<ul>\n<li>&quot;<a href=\"https://www.nngroup.com/articles/writing-links/\">Writing Hyperlinks: Salient, Descriptive, Start with Keyword</a>&quot; by Nielsen Norman Group</li>\n<li>&quot;<a href=\"https://www.nomensa.com/blog/2011/writing-good-link-text\">Writing good link text</a>&quot; by Nomensa</li>\n</ul>\n<h2>See also</h2>\n<ul>\n<li><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#the-a-element\">WHATWG HTML5 specification for <code>&lt;a&gt;</code></a></li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Link","patternPartial":"atoms-link","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-em" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-01-em&#x2F;00-atoms-01-inline-text-01-em.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-em" title="Link to Pattern">
+							Em
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-em" data-patternpartial="atoms-em" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-em">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</em>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-em" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;em&gt; tag is a phrase tag. It renders as emphasized text.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Em","patternPartial":"atoms-em","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-strong" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-02-strong&#x2F;00-atoms-01-inline-text-02-strong.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-strong" title="Link to Pattern">
+							Strong
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-strong" data-patternpartial="atoms-strong" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-strong">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</strong>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-strong" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;strong&gt; tag is a phrase tag. It defines important text.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Strong","patternPartial":"atoms-strong","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-small" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-03-small&#x2F;00-atoms-01-inline-text-03-small.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-small" title="Link to Pattern">
+							Small
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-small" data-patternpartial="atoms-small" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-small">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</small>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-small" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;small&gt; tag defines smaller text (and other side comments).</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Small","patternPartial":"atoms-small","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-superseded" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-04-superseded&#x2F;00-atoms-01-inline-text-04-superseded.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-superseded" title="Link to Pattern">
+							Superseded
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-superseded" data-patternpartial="atoms-superseded" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-superseded">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<s>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</s>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-superseded" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;s&gt; tag specifies text that is no longer correct, accurate or relevant.</p>\n<p>The &lt;s&gt; tag should not be used to define replaced or deleted text, use the &lt;del&gt; tag to define replaced or deleted text.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Superseded","patternPartial":"atoms-superseded","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-cite" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-05-cite&#x2F;00-atoms-01-inline-text-05-cite.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-cite" title="Link to Pattern">
+							Cite
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-cite" data-patternpartial="atoms-cite" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-cite">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<cite>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</cite>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-cite" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;cite&gt; tag defines the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.).</p>\n<p><em>Note:</em> A person's name is not the title of a work.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Cite","patternPartial":"atoms-cite","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-quote" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-06-quote&#x2F;00-atoms-01-inline-text-06-quote.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-quote" title="Link to Pattern">
+							Quote
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-quote" data-patternpartial="atoms-quote" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-quote">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</q>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-quote" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;q&gt; tag defines a short quotation.</p>\n<p>Browsers normally insert quotation marks around the quotation.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Quote","patternPartial":"atoms-quote","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-definition" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-07-definition&#x2F;00-atoms-01-inline-text-07-definition.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-definition" title="Link to Pattern">
+							Definition
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-definition" data-patternpartial="atoms-definition" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-definition">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<dfn>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</dfn>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-definition" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;dfn&gt; tag represents the defining instance of a term in HTML.</p>\n<p>The defining instance is often the first use of a term in a document.</p>\n<p>The nearest parent of the &lt;dfn&gt; tag must also contain the definition/explanation for the term inside &lt;dfn&gt;.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Definition","patternPartial":"atoms-definition","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-abbreviation" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-08-abbreviation&#x2F;00-atoms-01-inline-text-08-abbreviation.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-abbreviation" title="Link to Pattern">
+							Abbreviation
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-abbreviation" data-patternpartial="atoms-abbreviation" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-abbreviation">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<abbr>Attn</abbr>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-abbreviation" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;abbr&gt; tag defines an abbreviation or an acronym, like &quot;Mr.&quot;, &quot;Dec.&quot;, &quot;ASAP&quot;, &quot;ATM&quot;.</p>\n<p><em>Tip:</em> An abbreviation and an acronym are both shortened versions of something else. Both are often represented as a series of letters.</p>\n<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Abbreviation","patternPartial":"atoms-abbreviation","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-data" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-10-data&#x2F;00-atoms-01-inline-text-10-data.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-data" title="Link to Pattern">
+							Data
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-data" data-patternpartial="atoms-data" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-data">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<data value="42">Forty-two</data>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-data" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;data&gt; tag links the given content with a machine-readable translation.</p>\n<p>This element provides both a machine-readable value for data processors, and a human-readable\nvalue for rendering in a browser.</p>\n<p>Tip: If the content is time- or date-related, the &lt;time&gt; element must be used instead.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Data","patternPartial":"atoms-data","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-time" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-11-time&#x2F;00-atoms-01-inline-text-11-time.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-time" title="Link to Pattern">
+							Time
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-time" data-patternpartial="atoms-time" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-time">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<time datetime="2018-01-10T12:48+0000">Wednesday, 10. January 2018 at 12:48pm</time>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-time" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;time&gt; tag defines a human-readable date/time.</p>\n<p>This element can also be used to encode dates and times in a machine-readable way so that user agents\ncan offer to add birthday reminders or scheduled events to the user's calendar, and search engines\ncan produce smarter search results.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Time","patternPartial":"atoms-time","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-code" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-12-code&#x2F;00-atoms-01-inline-text-12-code.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-code" title="Link to Pattern">
+							Code
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-code" data-patternpartial="atoms-code" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-code">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<code>const image &#x3D; SafeImage.getApplicationImage();</code>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-code" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;code&gt; tag is a phrase tag. It defines a piece of computer code.</p>\n<p><em>Tip:</em> This tag is not deprecated, but it is possible to achieve richer effect with CSS.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Code","patternPartial":"atoms-code","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-var" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-13-var&#x2F;00-atoms-01-inline-text-13-var.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-var" title="Link to Pattern">
+							Var
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-var" data-patternpartial="atoms-var" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-var">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<var>foobar</var>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-var" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;var&gt; tag is a phrase tag. It defines a variable.</p>\n<p><em>Tip:</em> This tag is not deprecated, but it is possible to achieve richer effect with CSS.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Var","patternPartial":"atoms-var","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-output" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-14-output&#x2F;00-atoms-01-inline-text-14-output.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-output" title="Link to Pattern">
+							Output
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-output" data-patternpartial="atoms-output" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-output">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<samp>Press any key to continue...</samp>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-output" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;output&gt; tag represents the result of a calculation (like one performed by a script).</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Output","patternPartial":"atoms-output","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-input" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-15-input&#x2F;00-atoms-01-inline-text-15-input.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-input" title="Link to Pattern">
+							Input
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-input" data-patternpartial="atoms-input" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-input">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<kbd>apt-get install safeimage</kbd>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-input" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"molecules-form-group","lineagePath":"../../patterns/01-molecules-03-forms-02-form-group/01-molecules-03-forms-02-form-group.rendered.html"}],"lineageR":[{"lineagePattern":"molecules-form-group","lineagePath":"../../patterns/01-molecules-03-forms-02-form-group/01-molecules-03-forms-02-form-group.rendered.html"}],"patternLineageEExists":true,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;input&gt; tag specifies an input field where the user can enter data.</p>\n<p>&lt;input&gt; elements are used within a &lt;form&gt; element to declare input controls\nthat allow users to input data.</p>\n<p>An input field can vary in many ways, depending on the type attribute.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Input","patternPartial":"atoms-input","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-subscript" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-16-subscript&#x2F;00-atoms-01-inline-text-16-subscript.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-subscript" title="Link to Pattern">
+							Subscript
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-subscript" data-patternpartial="atoms-subscript" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-subscript">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<sub>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</sub>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-subscript" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;sub&gt; tag defines subscript text. Subscript text appears half a character below\nthe normal line, and is sometimes rendered in a smaller font. Subscript text can be\nused for chemical formulas, like H&lt;sub&gt;2&lt;/sub&gt;O.</p>\n<p><em>Tip:</em> Use the &lt;sup&gt; tag to define superscripted text.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Subscript","patternPartial":"atoms-subscript","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-superscript" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-17-superscript&#x2F;00-atoms-01-inline-text-17-superscript.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-superscript" title="Link to Pattern">
+							Superscript
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-superscript" data-patternpartial="atoms-superscript" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-superscript">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<sup>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</sup>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-superscript" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;sup&gt; tag defines superscript text. Superscript text appears half a character\nabove the normal line, and is sometimes rendered in a smaller font. Superscript text can\nbe used for footnotes, like WWW&lt;sup&gt;1&lt;/sup&gt;.</p>\n<p>Tip: Use the &lt;sub&gt; tag to define subscript text.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Superscript","patternPartial":"atoms-superscript","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-mark" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-18-mark&#x2F;00-atoms-01-inline-text-18-mark.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-mark" title="Link to Pattern">
+							Mark
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-mark" data-patternpartial="atoms-mark" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-mark">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<mark>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</mark>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-mark" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;mark&gt; tag defines marked text.</p>\n<p>Use the &lt;mark&gt; tag if you want to highlight parts of your text.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Mark","patternPartial":"atoms-mark","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->			<div id="atoms-deleted" class="pl-c-pattern">
+
+				<div class="pl-c-pattern__header">
+
+					<h3 class="pl-c-pattern__title">
+
+						<a href="../../patterns/00-atoms-01-inline-text-19-deleted&#x2F;00-atoms-01-inline-text-19-deleted.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-deleted" title="Link to Pattern">
+							Deleted
+
+
+						</a><!--end pl-c-pattern__title-link-->
+
+					</h3><!--end pl-c-pattern__title-->
+
+					<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-deleted" data-patternpartial="atoms-deleted" title="View Pattern Info">
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--expand">Expand</span>
+						<span class="pl-c-pattern__extra-toggle-text pl-c-pattern__extra-toggle-text--collapse">Collapse</span>
+						<div class="pl-c-pattern__toggle-icon-wrapper">
+							<svg viewBox="0 0 16 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--expand">
+								<path fill="currentColor" d="M9 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+							</svg>
+
+							<svg viewBox="0 0 20 16" width="20" height="20" class="pl-c-pattern__toggle-icon pl-c-pattern__toggle-icon--collapse">
+								<path fill="currentColor" d="M13 11.5l1.5 1.5 5-5-5-5-1.5 1.5 3.5 3.5z"></path>
+								<path fill="currentColor" d="M7 4.5l-1.5-1.5-5 5 5 5 1.5-1.5-3.5-3.5z"></path>
+								<path fill="currentColor" d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"></path>
+							</svg>
+						</div>
+					</button>
+
+				</div><!--end pl-c-pattern__header-->
+
+				<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-deleted">
+			    </div><!--end pl-c-pattern__extra-->
+
+				<div class="pl-js-pattern-example">
+				<del>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</del>
+				</div><!--end pl-js-pattern-example-->
+
+				<script type="text/json" id="pl-pattern-data-atoms-deleted" class="pl-js-pattern-data">
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<h2>Purpose</h2>\n<p>The &lt;del&gt; tag defines text that has been deleted from a document.</p>\n<h2>Data</h2>\n<ul>\n<li><code>text</code>: the text to display</li>\n</ul>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"inline-text"},"patternExtension":"hbs","patternName":"Deleted","patternPartial":"atoms-deleted","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+				</script>
+
+			</div><!--end pl-c-pattern-->
+  </div><!--end pl-c-pattern-index-->
+
+</div><!--end pl-c-main-->
+<script src="../../js/jquery/jquery.min.js"></script>
+<script src="../../js/popper.js/popper.min.js"></script>
+<script src="../../css/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--DO NOT REMOVE-->
+<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"patternPartial":"viewall-atoms-00-atoms"}
+</script>
+
+<script>
+  window.patternData = {"patternPartial":"viewall-atoms-00-atoms"};
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+
+  var scriptLoader = {
+
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1579792860570">
+  (function() {
+    if (self != top) {
+      var cb = '1579792860570';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+
+<script type="module">
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  import('../../styleguide/js/patternlab-pattern.modern.js');
+</script>
+
+<script id="pl-js-insert-1579792860570" nomodule>
+  /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+  !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
+
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  loadJS('../../styleguide/js/patternlab-pattern.js');
+</script>
+
+
+</body>
+</html>

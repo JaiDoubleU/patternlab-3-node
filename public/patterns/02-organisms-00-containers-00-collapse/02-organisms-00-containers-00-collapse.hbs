@@ -1,0 +1,10 @@
+{{#if showButton}}
+    <button class="btn btn-sm btn-outline-secondary mb-2" type="button" data-toggle="collapse" data-target="{{collapseTargetId}}" aria-expanded="false" aria-controls="{{collapseId}}">
+        {{#if buttonText}} {{buttonText}} {{else}} Toggle  {{/if}}
+    </button>
+{{/if}}
+<div class="collapse" id="{{collapseId}}">
+  <div class="card card-body">
+      {{collapsedContent}}
+  </div>
+</div>

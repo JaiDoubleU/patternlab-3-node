@@ -1,0 +1,130 @@
+{
+    "lorem": {
+        "1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam lectus id lectus mattis porttitor. Phasellus euismod massa eu mauris tristique, nec finibus ante euismod. Curabitur volutpat consectetur lectus lobortis congue. Donec eget luctus ligula, non efficitur est. Nullam lacinia ex elit, vitae commodo tellus vulputate eu. Aenean vel metus nibh. Sed vestibulum odio et ex ultricies, id hendrerit lectus laoreet. Maecenas laoreet erat at augue placerat rhoncus. Vestibulum sed odio viverra, dapibus nibh non, consectetur lectus. Donec faucibus dictum porttitor.",
+        "2": "Phasellus sit amet magna a sem varius sollicitudin sed id urna. Fusce est ante, hendrerit at neque vel, maximus molestie massa. Sed mattis tristique libero, a porttitor turpis malesuada ac. Curabitur malesuada felis ante, sit amet auctor nisl pellentesque sed. Curabitur sollicitudin eleifend velit quis lobortis. Vestibulum fermentum eget libero nec efficitur. Fusce fermentum est et erat euismod ornare. Aliquam facilisis at est at tempus.",
+        "3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu facilisis massa, et facilisis augue. Quisque non elit pretium, tristique nibh vitae, scelerisque ex. Suspendisse a eleifend est, a volutpat elit. Etiam nec metus nibh. Pellentesque et turpis arcu. Phasellus in blandit tellus. Maecenas finibus nulla ac nisi ultricies egestas. Fusce hendrerit sagittis aliquet.",
+        "4": "Suspendisse id massa nec dolor pharetra mollis a at velit. Nulla ornare sed tellus sed dignissim. Quisque ligula leo, malesuada id tristique nec, rhoncus non dolor. Nulla facilisi. Integer metus urna, tincidunt vitae tempus et, tempus sit amet quam. In in aliquam risus, quis faucibus nisl. Etiam fringilla auctor arcu, ut faucibus turpis varius quis. Nunc aliquam quam risus, ut fermentum sapien tincidunt nec. Donec semper a ipsum tincidunt auctor. Mauris varius volutpat luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum leo sapien, dapibus et aliquet quis, sodales ut libero. Aenean efficitur, justo eu dictum mollis, magna lectus placerat lorem, eget egestas justo tortor vitae eros. Sed vehicula porta nisi id convallis."
+    },
+    "colors": {
+        "brand": [
+            {
+                "color-value": "#13322B",
+                "color-name": "$color-brand-dark-green"
+            }, {
+                "color-value": "#56BC2F",
+                "color-name": "$color-brand-primary"
+            }, {
+                "color-value": "#A0EF6E",
+                "color-name": "$color-brand-light-green"
+            }, {
+                "color-value": "#03252F",
+                "color-name": "$color-brand-deep-lake"
+            }, {
+                "color-value": "#2E5665",
+                "color-name": "$color-brand-lake"
+            }, {
+                "color-value": "#006A70",
+                "color-name": "$color-brand-lagoon"
+            }, {
+                "color-value": "#58A7AF",
+                "color-name": "$color-brand-ocean"
+            }, {
+                "color-value": "#D0ECEE",
+                "color-name": "$color-brand-mist"
+            }, {
+                "color-value": "#EFEEE1",
+                "color-name": "$color-brand-sand"
+            }, {
+                "color-value": "#119DD9",
+                "color-name": "$color-brand-just-blue"
+            }, {
+                "color-value": "#005AF6",
+                "color-name": "$color-brand-electric-blue"
+            }, {
+                "color-value": "#FF5F23",
+                "color-name": "$color-brand-vivid-orange"
+            }
+        ],
+        "neutral": [
+            {
+                "color-name": "$color-white",
+                "color-value": "#ffffff"
+            },
+            {
+                "color-name": "$color-gray-02",
+                "color-value": "#f7f9f9"
+            },
+            {
+                "color-name": "$color-gray-15",
+                "color-value": "#d9d9d9"
+            },
+            {
+                "color-name": "$color-gray-35",
+                "color-value": "#a5a5a5"
+            },
+            {
+                "color-name": "$color-gray-50",
+                "color-value": "#808080"
+            },
+            {
+                "color-name": "$color-gray-65",
+                "color-value": "#595959"
+            },
+            {
+                "color-name": "$color-gray-73",
+                "color-value": "#444444"
+            },
+            {
+                "color-name": "$color-gray-87",
+                "color-value": "#222222"
+            },
+            {
+                "color-name": "$color-black",
+                "color-value": "#000000"
+            }
+        ],
+        "utility": [
+            {
+                "color-name": "$color-utility-success",
+                "color-value": "#028726"
+            }, {
+                "color-name": "$color-utility-info",
+                "color-value": "#00677F"
+            }, {
+                "color-name": "$color-utility-warning",
+                "color-value": "#FFAD30"
+            }, {
+                "color-name": "$color-utility-danger",
+                "color-value": "#BE3A34"
+            }, {
+                "color-name": "$color-utility-success-subtle",
+                "color-value": "#dff0d8"
+            }, {
+                "color-name": "$color-utility-info-subtle",
+                "color-value": "#d9edf7"
+            }, {
+                "color-name": "$color-utility-warning-subtle",
+                "color-value": "#fcf8e3"
+            }, {
+                "color-name": "$color-utility-danger-subtle",
+                "color-value": "#f2dede"
+            }
+        ]
+    },
+    "fonts": {
+        "primary": [
+            "BentonSans-Regular",
+            "ProximaNova",
+            "Helvetica",
+            "Arial",
+            "sans-serif"
+        ],
+        "secondary": [
+            "BentonSans-Regular",
+            "ProximaNova",
+            "Helvetica",
+            "Arial",
+            "sans-serif"
+        ]
+    }
+}

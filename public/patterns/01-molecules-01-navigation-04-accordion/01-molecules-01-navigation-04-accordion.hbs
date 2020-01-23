@@ -1,0 +1,20 @@
+
+<div class="accordion"  {{#if parentId}} id="{{parentId}}"{{/if}}>
+    {{#accordionCards}}
+        <div class="card">
+            <div class="card-header pl-2 py-1" id="{{id}}">
+                <div class="mb-0">
+                    <button class="btn btn-link btn-sm" type="button" data-toggle="collapse" data-target="#collapse{{id}}">
+                        {{text}}
+                    </button>
+                </div>
+            </div>
+
+            <div id="collapse{{id}}" class="collapse {{#if show}}show{{/if}}" data-parent="{{parentTarget}}">
+                <div class="card-body">
+                    {{cardContent}}
+                </div>
+            </div>
+        </div>
+    {{/accordionCards}}
+</div>
