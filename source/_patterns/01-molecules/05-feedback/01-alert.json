@@ -1,0 +1,7 @@
+{
+    "alert": [{
+        "alertType": "info",
+        "alertText": "For your info...this is an informational message that you should check out.",
+        "dismissible": true
+    }]
+}

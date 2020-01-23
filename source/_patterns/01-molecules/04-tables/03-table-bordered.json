@@ -1,0 +1,33 @@
+{
+    "table": {
+        "columns": [{
+                "text": "Employee ID"
+            },
+            {
+                "text": "Name"
+            },
+            {
+                "text": "Department"
+            }
+        ],
+        "rows": [{
+                "ID": "1",
+                "Name": "John Smith",
+                "Department": "Computers",
+                "OfficeNumber": "125"
+            },
+            {
+                "ID": "2",
+                "Name": "Allan Jacobs",
+                "Department": "HR",
+                "OfficeNumber": "54"
+            },
+            {
+                 "ID": "3",
+                 "Name": "Edward Thoms",
+                 "Department": "Computers",
+                 "OfficeNumber": "114"
+            }
+        ]
+    }
+}
