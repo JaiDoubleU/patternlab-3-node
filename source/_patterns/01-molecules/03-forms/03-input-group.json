@@ -1,9 +1,0 @@
-{
-    "inputGroup": [{
-         "prepend": true,
-         "prependText": "Prepend",
-         "placeholderText": "Type to search...",
-         "append": true,
-         "appendText": "Append"
-    }]
-}
