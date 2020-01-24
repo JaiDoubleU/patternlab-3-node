@@ -1,0 +1,1 @@
+Pages are specific instances of templates that replace that content structure with real representative content.
