@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='/patternlab.png' width="300" alt="Pattern Lab Logo" style="max-width: 100%;" />
+  <img src='https://raw.githubusercontent.com/pattern-lab/patternlab-node/dev/patternlab.png' width="300" alt="Pattern Lab Logo" style="max-width: 100%;" />
 </p>
 
 # Pattern Lab
