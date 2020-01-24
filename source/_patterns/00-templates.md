@@ -1,0 +1,1 @@
+Templates define a generic underlying content structure of a UI.
