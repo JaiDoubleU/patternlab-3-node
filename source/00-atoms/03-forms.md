@@ -1,1 +1,0 @@
-The Forms category defines visual styles for elements used to collect user input.
