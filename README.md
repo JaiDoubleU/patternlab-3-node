@@ -37,11 +37,8 @@ The below assumes a new directory and project is required. This is likely what y
     npm run pl:serve
     ```
     > If you get an error stating that `npx` is not installed, ensure you are on `npm 5.2.0` or later by running `npm -v` or install it globally with `npm install -g npx`. [Learn more about npx.](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
-1. Follow the on-screen prompts to choose your Edition and a Starterkit should you want one.
-  - If you chose `edition-node`, new commands in the "scripts" will be added in your `package.json`.
-  - If you chose `edition-node-gulp`, a `gulpfile.js` will be added to your project.
 
-  > Notice that `@pattern-lab/cli` was installed as a depdendency. Learn how to further [use the cli in your own project](https://github.com/pattern-lab/patternlab-node/blob/dev/packages/cli/readme.md#configuring-your-project-to-use-the-cli).
+    > Notice that `@pattern-lab/cli` was installed as a depdendency. Learn how to further [use the cli in your own project](https://github.com/pattern-lab/patternlab-node/blob/dev/packages/cli/readme.md#configuring-your-project-to-use-the-cli).
 
 
 ## Ecosystem
