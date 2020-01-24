@@ -1,0 +1,5 @@
+<select class="form-control {{#if classList}} {{classList}} {{/if}}" {{#if id}} id="{{id}}" {{/if}}>
+    {{#options}}
+        <option value="{{value}}" {{#if selected}} selected {{/if}}>{{text}}</option>
+    {{/options}}
+</select>
