@@ -33,8 +33,8 @@ The below assumes a new directory and project is required. This is likely what y
     mkdir new-project
     cd new-project
     git clone https://github.com/JaiDoubleU/patternlab-3-node.git
-    npm install 
-    npm run pl:serve
+    npm install
+    patternlab serve
     ```
     > If you get an error stating that `npx` is not installed, ensure you are on `npm 5.2.0` or later by running `npm -v` or install it globally with `npm install -g npx`. [Learn more about npx.](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
 
