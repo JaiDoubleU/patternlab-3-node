@@ -33,10 +33,14 @@ The below assumes a new directory and project is required. This is likely what y
     mkdir new-project
     cd new-project
 <<<<<<< HEAD
+<<<<<<< HEAD
     git clone https://github.com/JaiDoubleU/patternlab-3-node.git
     npm install 
     npm run pl:serve
     
+=======
+    npm create pattern-lab
+>>>>>>> df4be340da479660e6881dd183422a814720f094
 =======
     npm create pattern-lab
 >>>>>>> df4be340da479660e6881dd183422a814720f094
